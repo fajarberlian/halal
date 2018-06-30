@@ -1,0 +1,20 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+@prefix food: <http://purl.org/foodontology#> .
+@prefix foodlirmm: <http://data.lirmm.fr/ontologies/food#> .
+@prefix gr: <http://purl.org/goodrelations/v1#>. 
+
+halals:283 a halalv:Source;
+				rdfs:label "Mushbooh";
+				rdfs:comment "Miscellaneous - Flavour Enhancers. Suitable for vegetarian label on the package indicates the source of Monosodium Glutamate is from vegetable protein or it has to be under Halal or kosher certification. In USA/Canada it is kosher certified and meet the Halal requirements. Monosodium Glutamate can also be obtained from yeast. But if yeast is grown on pork media then it is Haram. It happened in Indonesia few years back when Monosodium Glutamate is produced using pork fat media to grow yeast by Ajinomonto Indonesia. As it was reported on our website.";
+				foaf:organization "Muslim Customer Group";
+				rdfs:seeAlso <http://www.muslimconsumergroup.com/e-numbers_list.html>.

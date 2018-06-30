@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+@prefix food: <http://purl.org/foodontology#> .
+@prefix foodlirmm: <http://data.lirmm.fr/ontologies/food#> .
+@prefix gr: <http://purl.org/goodrelations/v1#>. 
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "8993027163754";
+	rdfs:label "Happy Tos Rasa Jagung Bakar";
+	gr:hasManufacturer halalm:PT_Sinar_Kencana_Agung;
+	foodlirmm:fatPer100g 14.00;
+	foodlirmm:saturatedFatPer100g 6.00;
+	foodlirmm:sodiumPer100g 99.90;
+	foodlirmm:fiberPer100g 4.00;
+	foodlirmm:sugarsPer100g 1.00;
+	foodlirmm:proteinsPer100g 4.00;	halalv:foodproductId 2.
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar foodlirmm:certificate halalc:2.
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar food:containsIngredient halali:Whole_Corn, halali:Palm_Oil, halali:Monosodium_Glutamate, halali:Flavour_Enhacer, halali:Sunset_Yellow_FCF.
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar food:ingredientsListAsText "Whole Corn", "Palm Oil", "Monosodium Glutamate", "Flavour Enhacer", "Sunset Yellow FCF" .
